@@ -44,11 +44,11 @@ public class Projet {
         String cat = "Sans catégorie";
         listeTaches.add(new Tache(nomTache, desc, cat, this));
     }
-    public void deleteTache(){
+    /*public void deleteTache(){
         //tache a suprimer choisie sur l'interface graphique
         //message "etes vous sur?
         listeTaches.remove();
-    }
+    }*/
     public void addEmploye(){
         //selectioner l'employé dans la liste (dans l'interface graphique
         //placeholder for testing
